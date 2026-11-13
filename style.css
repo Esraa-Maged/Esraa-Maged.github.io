@@ -365,6 +365,25 @@ html.hc .service-icon {
   font-weight: bold;
 }
 
+/* قسم المجالات الأخرى */
+.fields-list {
+  list-style: none;
+  padding: 0;
+  margin-block: 1rem;
+  display: grid;
+  gap: 0.75rem;
+}
+.fields-list li {
+  background: var(--card-bg);
+  border: 0.125rem solid var(--card-border);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.25rem;
+}
+.fields-list .field-name {
+  font-weight: bold;
+  font-family: "El Messiri", "Segoe UI", Tahoma, sans-serif;
+}
+
 .contact-link {
   font-size: 1.125rem;
   font-weight: bold;
