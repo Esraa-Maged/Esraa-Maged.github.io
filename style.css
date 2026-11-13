@@ -166,6 +166,11 @@ button:focus-visible,
 .works-list .work-title {
   font-weight: bold;
 }
+.works-list .listen {
+  display: block;
+  margin-block-start: 0.35rem;
+  font-weight: bold;
+}
 
 .contact-link {
   font-size: 1.125rem;
