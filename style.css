@@ -208,6 +208,49 @@ main {
 
 .hero {
   padding-block: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-photo {
+  width: 15rem;
+  height: auto;
+  border-radius: 1rem;
+  border: 0.25rem solid var(--accent);
+  flex-shrink: 0;
+}
+
+.hero-text {
+  flex: 1 1 16rem;
+}
+
+.about-photo {
+  width: 12rem;
+  height: auto;
+  border-radius: 0.75rem;
+  border: 0.1875rem solid var(--card-border);
+  float: inline-start;
+  margin-inline-end: 1.25rem;
+  margin-block-end: 0.5rem;
+}
+
+html.hc .about-photo,
+html.hc .hero-photo {
+  border-color: var(--border);
+}
+
+@media (max-width: 480px) {
+  .hero {
+    justify-content: center;
+    text-align: center;
+  }
+  .about-photo {
+    float: none;
+    display: block;
+    margin-inline: auto;
+  }
 }
 
 h1 {
